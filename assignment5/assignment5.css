@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    /* margin-top:50px; */
+    font-size: 48px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+hr {
+    margin-top: 100px;
+}
+
+input {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    height: 70px;
+    width: 150px;
+    font-size: 32px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 0px 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.mark {
+    color: black;
+    background-color: white;
+    font-size: 32px;
+    padding: 5px 20px;
+    position: absolute;
+    top: 270px;
+    right: 50%;
+}
+
+.right {
+    font-size: 24px;
+}
+
+.second {
+    margin-top: 50px;
+}
